@@ -1,0 +1,6 @@
+{
+    "solidity.nodemodulespackage": "solc",
+    "solidity.linter": "solhint",
+    "solidity.formatter": "prettier",
+    "cSpell.enabled": true
+}
