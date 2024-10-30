@@ -1,6 +1,6 @@
 {
-  "name": "flash-contracts",
-  "description": "Flash Contracts",
+  "name": "collateral-contracts",
+  "description": "Collateral Contracts",
   "version": "0.1.0",
   "private": true,
   "scripts": {
