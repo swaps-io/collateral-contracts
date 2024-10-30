@@ -2892,6 +2892,44 @@ __metadata:
   languageName: node
   linkType: hard
 
+"collateral-contracts@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "collateral-contracts@workspace:."
+  dependencies:
+    "@ethersproject/abi": "npm:^5.7.0"
+    "@ethersproject/providers": "npm:^5.7.2"
+    "@nomicfoundation/hardhat-chai-matchers": "npm:^2.0.7"
+    "@nomicfoundation/hardhat-ethers": "npm:^3.0.6"
+    "@nomicfoundation/hardhat-ignition": "npm:^0.15.5"
+    "@nomicfoundation/hardhat-ignition-ethers": "npm:^0.15.5"
+    "@nomicfoundation/hardhat-network-helpers": "npm:^1.0.11"
+    "@nomicfoundation/hardhat-toolbox": "npm:^5.0.0"
+    "@nomicfoundation/hardhat-verify": "npm:^2.0.8"
+    "@nomicfoundation/ignition-core": "npm:^0.15.5"
+    "@nomiclabs/hardhat-solhint": "npm:^3.1.0"
+    "@openzeppelin/contracts": "npm:^5.0.2"
+    "@openzeppelin/test-helpers": "npm:^0.5.16"
+    "@typechain/ethers-v6": "npm:^0.5.1"
+    "@typechain/hardhat": "npm:^9.1.0"
+    "@types/chai": "npm:^4.3.16"
+    "@types/mocha": "npm:^10.0.7"
+    "@types/node": "npm:^20.14.9"
+    chai: "npm:^4.4.1"
+    ethers: "npm:^6.13.1"
+    hardhat: "npm:^2.22.6"
+    hardhat-contract-sizer: "npm:^2.10.0"
+    hardhat-gas-reporter: "npm:^2.2.0"
+    prettier: "npm:^3.3.2"
+    prettier-plugin-solidity: "npm:^1.3.1"
+    solhint: "npm:^5.0.1"
+    solidity-code-metrics: "npm:^0.0.27"
+    solidity-coverage: "npm:^0.8.12"
+    ts-node: "npm:^10.9.2"
+    typechain: "npm:^8.3.2"
+    typescript: "npm:^5.5.3"
+  languageName: unknown
+  linkType: soft
+
 "color-convert@npm:^1.9.0":
   version: 1.9.3
   resolution: "color-convert@npm:1.9.3"
@@ -4240,44 +4278,6 @@ __metadata:
   checksum: 10c0/062c5a83a9c02f53cdd6d175a37ecf8f87ea5bbff1fdfb828f04bfa021441bc7583e8ebc0872a4c1baab96221fb8a8a275a19809fb93fbc40bd69ec35634069a
   languageName: node
   linkType: hard
-
-"flash-contracts@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "flash-contracts@workspace:."
-  dependencies:
-    "@ethersproject/abi": "npm:^5.7.0"
-    "@ethersproject/providers": "npm:^5.7.2"
-    "@nomicfoundation/hardhat-chai-matchers": "npm:^2.0.7"
-    "@nomicfoundation/hardhat-ethers": "npm:^3.0.6"
-    "@nomicfoundation/hardhat-ignition": "npm:^0.15.5"
-    "@nomicfoundation/hardhat-ignition-ethers": "npm:^0.15.5"
-    "@nomicfoundation/hardhat-network-helpers": "npm:^1.0.11"
-    "@nomicfoundation/hardhat-toolbox": "npm:^5.0.0"
-    "@nomicfoundation/hardhat-verify": "npm:^2.0.8"
-    "@nomicfoundation/ignition-core": "npm:^0.15.5"
-    "@nomiclabs/hardhat-solhint": "npm:^3.1.0"
-    "@openzeppelin/contracts": "npm:^5.0.2"
-    "@openzeppelin/test-helpers": "npm:^0.5.16"
-    "@typechain/ethers-v6": "npm:^0.5.1"
-    "@typechain/hardhat": "npm:^9.1.0"
-    "@types/chai": "npm:^4.3.16"
-    "@types/mocha": "npm:^10.0.7"
-    "@types/node": "npm:^20.14.9"
-    chai: "npm:^4.4.1"
-    ethers: "npm:^6.13.1"
-    hardhat: "npm:^2.22.6"
-    hardhat-contract-sizer: "npm:^2.10.0"
-    hardhat-gas-reporter: "npm:^2.2.0"
-    prettier: "npm:^3.3.2"
-    prettier-plugin-solidity: "npm:^1.3.1"
-    solhint: "npm:^5.0.1"
-    solidity-code-metrics: "npm:^0.0.27"
-    solidity-coverage: "npm:^0.8.12"
-    ts-node: "npm:^10.9.2"
-    typechain: "npm:^8.3.2"
-    typescript: "npm:^5.5.3"
-  languageName: unknown
-  linkType: soft
 
 "flat@npm:^5.0.2":
   version: 5.0.2
